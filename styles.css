@@ -77,3 +77,11 @@ html {
     width: 633px;
   }
 }
+.key.active {
+  background-color: #ddd;
+  transform: translateY(3px);
+}
+
+.key.black--key.active::after {
+  background-color: #555;
+}
